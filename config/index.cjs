@@ -26,6 +26,7 @@ const USER_CONFIG = {
       useTemplateId: 'BDX9PZSo5YFkGAtlvyPKCHZTsfJ_wf9Bp6go7lqnCeI',
       // 新历生日, 仅用作获取星座运势, 格式必须为MM-DD
       horoscopeDate: '10-22',
+      birthday_message:'1999-10-22',
       festivals: [
         // 注意：此条配置日期为阴历日期，因为`type`中 “生日” 之前有 * 符号
         {
@@ -42,8 +43,7 @@ const USER_CONFIG = {
       // 我们在一起已经有xxxx天了的配置
       customizedDateList: [
         // 在一起的日子
-        { keyword: 'love_day', date: '2022-10-30' },
-        { keyword: 'birthday_message', date: '1999-10-22' },
+        { keyword: 'love_day', date: '2022-10-30' }
       ],
     },
   ],
